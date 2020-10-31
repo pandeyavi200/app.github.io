@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+    .container{
+    background-image: url(./img/bg.jpeg);
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+    }
+
+.first{
+    background-image:url(./img/img3.jpeg) ;
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    background-size: cover;
+    background-position:  center;
+    
+}
+
+h3{
+    margin-top: -10%;
+    margin-left: 5%;
+}
+h5{
+    
+    margin-left: 5%;
+    font-style: oblique;
+}
+.btn{
+    width: 80%;
+    border-radius: 10px;
+    height: 35px;
+    background-color: white;
+    margin: 0px 10% ;
+    margin-top: 10px;
+    border-color: rgb(252, 154, 26);
+}
+h4{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+
+
+.btn:hover{
+    background-color: rgb(252, 154, 26);
+}
+h6{
+    font-size: 10px;
+    margin-left: 10%;
+   padding-top: 3%;
+
+}
+.i{
+    padding: 17% 30%;
+    width: 40%;
+}
+.num{
+    margin-left: 10%;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(252, 154, 26);
+}
+.new{
+    margin-top: 10%;
+}
+.left,.right{
+    color: rgb(252, 154, 26);
+
+}
+.left{
+    margin-right: 30px;
+}
+.name{
+    text-decoration: underline;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    padding-left: 10px;
+}
+</style>
+
+</head>
+<body>
+   <div class="container">
+    <div class="first">
+      <img class="i" src="./img/3.jpeg" alt="">
+      
+    </div>
+    <div class="button">
+        <h4>LOGIN</h4>
+        <h6>Enter Your Mobile Number</h6>
+        <input class="num" type="number">
+        <h4 class="new">VERIFY OTP</h4>
+        <h6 >OTP Sent to 844822****</h6>
+        <input class="num name" type="number" maxlength="6">
+         <h6> <span class="left"> Change Mobile Number</span>Auto-Detect in 00:00 <span class="right"> Resend</span> </h6>
+        
+        <button type="button" class="btn btn-outline-warning">PROCEED</button>
+     
+    </div>
+    
+</div>
+    
+</body>
+</html>
